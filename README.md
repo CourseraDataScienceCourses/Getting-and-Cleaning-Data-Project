@@ -1,11 +1,11 @@
-# Getting and Cleaning Data at Coursera &mdash; Course Project
+# Getting and Cleaning Data Course Project
 
 This repository hosts the R code and related documentation files for the course [Getting and Cleaning data](https://class.coursera.org/getdata-030/), available on [Coursera](https://www.coursera.org/).
 
 
 ## The Project
 
-We must create one R script called `run_analysis.R` that does the following:
+We must create one R script called [`run_analysis.R`](run_analysis.R) that does the following:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -16,7 +16,7 @@ We must create one R script called `run_analysis.R` that does the following:
 
 ## Description of the Repository Contents
 
-* `README.md` is this file.
+* [`README.md`](README.md) is this file.
 * [`CodeBook.md`](CodeBook.md) describes the variables, the data, and any transformations or work that was performed to clean up the data.
-* `run_analysis.R` contains all the code to perform the analysis described in the 5 steps above.
-* `tidy.txt` is the output of `run_analysis.R`.
+* [`run_analysis.R`](run_analysis.R) contains all the code to perform the analysis described in the 5 steps above.
+* [`tidy.txt`](tidy.txt) is the output of [`run_analysis.R`](run_analysis.R).
