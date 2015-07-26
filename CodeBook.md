@@ -44,7 +44,7 @@ There are 5 parts (plus an optional initial step):
   <li>We download and unzip the data set if that has not been done in advance.</li>
   <li>We merge the training and the test sets to create one data set.</li>
   <li>We extracts only the measurements on the mean and standard deviation for each measurement.</li>
-  <li>We use desciptive activity names to name the activities in the data set.</li>
+  <li>We use descriptive activity names to name the activities in the data set.</li>
   <li>We labels appropriately the data set with descriptive variable names.</li>
   <li>From the data set in step 4, we create a second, independent tidy data set with the average of each variable for each activity and each subject.</li>
 </ol>
