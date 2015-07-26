@@ -145,4 +145,3 @@ There are 5 parts (plus an optional initial step):
 * `fBodyBodyGyroJerkMagMean`
 * `fBodyBodyGyroJerkMagStd`
 * `fBodyBodyGyroJerkMagMeanFreq`
-* 
