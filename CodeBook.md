@@ -40,12 +40,14 @@ The following files are available for the train and test data. Their description
 
 There are 5 parts (plus an optional initial step):
 
-0. We download and unzip the data set if that has not been done in advance.
-1. We merge the training and the test sets to create one data set.
-2. We extracts only the measurements on the mean and standard deviation for each measurement. 
-3. We use desciptive activity names to name the activities in the data set.
-4. We labels appropriately the data set with descriptive variable names.
-5. From the data set in step 4, we create a second, independent tidy data set with the average of each variable for each activity and each subject.
+<ol start="0">
+  <li>We download and unzip the data set if that has not been done in advance.</li>
+  <li>We merge the training and the test sets to create one data set.</li>
+  <li>We extracts only the measurements on the mean and standard deviation for each measurement.</li>
+  <li>We use desciptive activity names to name the activities in the data set.</li>
+  <li>We labels appropriately the data set with descriptive variable names.</li>
+  <li>From the data set in step 4, we create a second, independent tidy data set with the average of each variable for each activity and each subject.</li>
+</ol>
 
 
 ## Structure of the Tidy Data Set
@@ -57,12 +59,12 @@ There are 5 parts (plus an optional initial step):
 
 ### Activity Labels
 
-* `WALKING` (value `1`): subject was walking during the test
-* `WALKING_UPSTAIRS` (value `2`): subject was walking up a staircase during the test
-* `WALKING_DOWNSTAIRS` (value `3`): subject was walking down a staircase during the test
-* `SITTING` (value `4`): subject was sitting during the test
-* `STANDING` (value `5`): subject was standing during the test
-* `LAYING` (value `6`): subject was laying down during the test
+* `WALKING`: Subject was walking during the test.
+* `WALKING_UPSTAIRS`: Subject was walking up a staircase during the test.
+* `WALKING_DOWNSTAIRS`: Subject was walking down a staircase during the test.
+* `SITTING`: Subject was sitting during the test.
+* `STANDING`: Subject was standing during the test.
+* `LAYING`: Subject was laying down during the test.
 
 ### Measurements
 
